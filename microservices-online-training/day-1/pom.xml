@@ -12,6 +12,7 @@
 
     <artifactId>day-1</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>section-1</module>
