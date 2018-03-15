@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+---
+spring:
+  profiles: cloud
+  jpa:
+    hibernate:
+      ddl-auto: update
