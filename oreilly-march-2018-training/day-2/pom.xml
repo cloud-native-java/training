@@ -7,12 +7,12 @@
 
     <groupId>cnj</groupId>
     <version>1.0.0-SNAPSHOT</version>
-    <artifactId>day-2 </artifactId>
+    <artifactId>day-2</artifactId>
     <packaging>pom</packaging>
-    <name>oreilly-march-2018-training/day-2 </name>
+    <name>oreilly-march-2018-training/day-2</name>
     <modules>
         <module>section-5</module>
-        <!--<module>section-7</module>
+        <module>section-7</module><!--
         <module>section-8</module>
 -->
     </modules>
