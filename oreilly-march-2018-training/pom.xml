@@ -10,7 +10,7 @@
     <name>oreilly-march-2018-training</name>
     <modules>
         <module>day-1</module>
-        <!--<module>day-2</module>-->
+        <module>day-2</module>
     </modules>
 
 
