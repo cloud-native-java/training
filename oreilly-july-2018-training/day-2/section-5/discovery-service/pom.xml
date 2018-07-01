@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>cnj</groupId>
+    <groupId>cnj-july-2018</groupId>
     <artifactId>discovery-service  </artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
     <name>
-        oreilly-march-2018-training/day-2/section-5/discovery-service
+        oreilly-july-2018-training/day-2/section-5/discovery-service
     </name>
 
     <parent>

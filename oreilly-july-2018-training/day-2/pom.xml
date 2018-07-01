@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>cnj</groupId>
+    <groupId>cnj-july-2018</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <artifactId>day-2</artifactId>
     <packaging>pom</packaging>
-    <name>oreilly-march-2018-training/day-2</name>
+    <name>oreilly-july-2018-training/day-2</name>
     <modules>
         <module>section-5</module>
         <module>section-7</module>

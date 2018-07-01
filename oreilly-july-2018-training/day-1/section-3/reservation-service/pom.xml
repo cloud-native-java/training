@@ -5,7 +5,7 @@
 
 
     <artifactId>reservation-service</artifactId>
-    <groupId>cnj</groupId>
+    <groupId>cnj-july-2018</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>

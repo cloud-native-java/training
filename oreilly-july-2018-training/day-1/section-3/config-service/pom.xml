@@ -5,10 +5,10 @@
 
 
 	<artifactId>config-service</artifactId>
-	<groupId>cnj</groupId>
+	<groupId>cnj-july-2018</groupId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>oreilly-march-2018-training/day-1/section-3/config-service</name>
+	<name>oreilly-july-2018-training/day-1/section-3/config-service</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

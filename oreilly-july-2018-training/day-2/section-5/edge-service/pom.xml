@@ -5,14 +5,14 @@
 
 
 
-	<groupId>cnj</groupId>
+	<groupId>cnj-july-2018</groupId>
 	<artifactId>edge-service  </artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 
 	<name>
-		oreilly-march-2018-training/day-2/section-5/edge-service
+		oreilly-july-2018-training/day-2/section-5/edge-service
 	</name>
 
 

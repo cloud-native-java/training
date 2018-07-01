@@ -5,11 +5,11 @@
 
 
     <artifactId>reservation-client</artifactId>
-    <groupId>cnj</groupId>
+    <groupId>cnj-july-2018</groupId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>
-        oreilly-march-2018-training/day-1/section-3/reservation-client
+        oreilly-july-2018-training/day-1/section-3/reservation-client
     </name>
 
 

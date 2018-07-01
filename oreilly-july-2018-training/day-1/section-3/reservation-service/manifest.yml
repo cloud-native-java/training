@@ -1,6 +1,6 @@
 applications:
 - name: my-mongo-app
-  path: ./target/reservation-service-0.0.1-SNAPSHOT.jar
+  path: ./target/reservation-service-1.0.0-SNAPSHOT.jar
   routes:
   - route: my-reactive-mongo-app.cfapps.io
   buildpack: java_buildpack
