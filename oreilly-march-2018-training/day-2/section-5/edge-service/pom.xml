@@ -88,14 +88,14 @@
 						</resource>
 					</resources>
 				</configuration>
-				<executions>
+				<!--<executions>
 					<execution>
 						<phase>install</phase>
 						<goals>
 							<goal>build</goal>
 						</goals>
 					</execution>
-				</executions>
+				</executions>-->
 			</plugin>
 		</plugins>
 	</build>

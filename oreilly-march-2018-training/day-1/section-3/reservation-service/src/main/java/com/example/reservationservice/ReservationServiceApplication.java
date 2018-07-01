@@ -83,7 +83,7 @@ class MessageRestController {
 
 	private final String value;
 
-	MessageRestController(@Value("${message}") String value) {
+	MessageRestController(@Value("${message:default}") String value) {
 		this.value = value;
 	}
 
