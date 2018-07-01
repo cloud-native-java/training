@@ -12,8 +12,7 @@
     <name>oreilly-march-2018-training/day-2</name>
     <modules>
         <module>section-5</module>
-        <module>section-7</module><!--
+        <module>section-7</module>
         <module>section-8</module>
--->
     </modules>
 </project>
