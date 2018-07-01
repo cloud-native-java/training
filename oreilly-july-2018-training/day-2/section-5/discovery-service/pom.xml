@@ -8,8 +8,6 @@
     <artifactId>discovery-service  </artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-
     <name>
         oreilly-july-2018-training/day-2/section-5/discovery-service
     </name>

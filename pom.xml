@@ -9,7 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <!--<module>oreilly-march-2018-training</module>-->
+     <module>oreilly-march-2018-training</module>
         <module>oreilly-july-2018-training</module>
     </modules>
 
