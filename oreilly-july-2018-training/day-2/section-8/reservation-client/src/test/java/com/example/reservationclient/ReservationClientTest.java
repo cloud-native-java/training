@@ -17,7 +17,7 @@ import java.util.Collection;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureJson
-@AutoConfigureStubRunner(ids = "com.example:reservation-service:+:8080", workOffline = true)
+@AutoConfigureStubRunner(ids = "cnj:reservation-service:+:8080", workOffline = true)
 public class ReservationClientTest {
 
 	@Autowired
