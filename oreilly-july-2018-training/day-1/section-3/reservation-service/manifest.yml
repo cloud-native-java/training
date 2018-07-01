@@ -1,0 +1,12 @@
+applications:
+- name: my-mongo-app
+  path: ./target/reservation-service-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: my-reactive-mongo-app.cfapps.io
+  buildpack: java_buildpack
+  env:
+    JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+    SPRING_PROFILES_ACTIVE: cloud
+  services:
+  - reactive-mongo-db
+  stack: cflinuxfs2

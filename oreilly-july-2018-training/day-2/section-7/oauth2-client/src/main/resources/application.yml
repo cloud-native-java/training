@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+#    org.springframework.boot.autoconfigure: DEBUG
+
+spring:
+  thymeleaf:
+    cache: false
+  security:
+    oauth2:
+      client:
+        registration:
+          login-client:
+            provider: local-authz
+            client-id: client-1234
+            client-secret: secret
+            client-authentication-method: basic
+            authorization-grant-type: authorization_code
+            redirect-uri-template: "{baseUrl}/login/oauth2/code/{registrationId}"
+            scope: profile
+            client-name: Login Client
+        provider:
+          local-authz:
+            authorization-uri: http://auth-server:8090/oauth/authorize
+            token-uri: http://auth-server:8090/oauth/token
+            user-info-uri: http://auth-server:8090/resources/userinfo
+            user-name-attribute: name
