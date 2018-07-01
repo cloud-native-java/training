@@ -7,17 +7,13 @@
     <artifactId>user-service</artifactId>
     <version>2.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-
     <name>
         oreilly-july-2018-training/day-2/section-5/user-service
     </name>
-
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.8.RELEASE</version>
+        <version>2.0.3.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -25,7 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Dalston.SR4</spring-cloud.version>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -57,7 +53,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
         <dependency>

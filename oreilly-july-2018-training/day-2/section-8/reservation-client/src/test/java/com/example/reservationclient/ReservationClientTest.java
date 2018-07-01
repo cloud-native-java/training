@@ -7,27 +7,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.AutoConfigureJson;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
+import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Collection;
 
 /**
- * @author <a href="mailto:josh@joshlong.com">Josh Long</a>
- */
+	* @author <a href="mailto:josh@joshlong.com">Josh Long</a>
+	*/
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureJson
-@AutoConfigureStubRunner(ids = "cnj:reservation-service:+:8080", workOffline = true)
+@AutoConfigureStubRunner(ids = "cnj:reservation-service:+:8080", stubsMode = StubRunnerProperties.StubsMode.LOCAL)
 public class ReservationClientTest {
 
-	@Autowired
-	private ReservationClient client;
+		@Autowired
+		private ReservationClient client;
 /*
 	@Autowired
 	private ObjectMapper objectMapper;*/
 
-	@Test
-	public void getReservations() throws Exception {
+		@Test
+		public void getReservations() throws Exception {
 /*
 		String json = this.objectMapper
 				.writeValueAsString(Arrays.asList(new Reservation(1L, "Jane"),
@@ -40,8 +41,8 @@ public class ReservationClientTest {
 						.withBody(json)
 				));*/
 
-		Collection<Reservation> res = this.client.getReservations();
-		Assertions.assertThat(res.size()).isEqualTo(2);
-		Assertions.assertThat(res.stream().filter(r -> r.getReservationName().equalsIgnoreCase("Jane")).count()).isEqualTo(1);
-	}
+				Collection<Reservation> res = this.client.getReservations();
+				Assertions.assertThat(res.size()).isEqualTo(2);
+				Assertions.assertThat(res.stream().filter(r -> r.getReservationName().equalsIgnoreCase("Jane")).count()).isEqualTo(1);
+		}
 }
